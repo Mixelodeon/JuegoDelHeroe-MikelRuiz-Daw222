@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <form id="miFormulario" action="POST">
+        <label for="nombre">Indique su nombre:</label><br>
+        <input id="nombre" type="text" name="nombre" required><br><br>
+        <p id="errorNombre"></p>
+         <button id="introducirNombre" type="button">Introducir nombre</button>
+        <button id="botonJugar" type="button">Jugar</button>
+    </form>
+
+        <div id="juego">
+            <div id="dado" id="dado"></div>
+
+            <table id="tabla"></table>
+
+            <button id="BotonTirarDado" type="button">Tirar Dado</button>
+        </div>       
+</body>
+</html>
